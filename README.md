@@ -1,5 +1,5 @@
 # Docker Training
-## Instalation
+## Installation
 ### Docker
 ```
 https://docs.docker.com/get-docker/
