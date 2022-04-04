@@ -1,0 +1,9 @@
+services:
+  httpd:
+    image: httpd:latest
+    environment:
+      VIRTUAL_HOST: httpd.local
+
+networks:
+  default:
+      name: nginx-proxy
