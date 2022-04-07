@@ -31,6 +31,7 @@ https://docs.docker.com/compose/install/
 - `docker rm <container>` - remove container
 - `docker exec -it <container> <command>` - connect to running container and run command
 - `docker logs -f <container>` - show logs from container
+- `docker system prune (--all, --volumes)` - cleanup containers, images
 
 ### Docker Compose
 - `docker-compose ps` - list of containers in project
@@ -39,6 +40,34 @@ https://docs.docker.com/compose/install/
 - `docker-compose down` - stop stack and delete containers
 - `docker-compose exec <container> <command>` - connect to running container in stack and run command
 - `docker-compose logs -f <container>` - show logs from container
+
+## HTTPS
+
+#### Mkcert
+This tool create valid certificate for your localhost
+
+##### How to install Mkcert 
+[https://github.com/FiloSottile/mkcert#installation](https://github.com/FiloSottile/mkcert#installation)
+
+##### After instalation
+For the first time, you must run an authority installation command
+`mkcert -install`
+
+##### Certificate generator
+1. Create directory `~/nginx-proxy/certs/` and `cd ~/nginx-proxy/certs/`
+2. Create certificate and key for nginx-proxy `mkcert --cert-file=example.cz.test.crt --key-file=example.cz.test.key example.cz.test`
+3. Add volume and port mapping to `nginx-proxy` service
+
+```yaml
+services:
+  nginx-proxy:
+    ports:
+      - 443:443
+    volumes:
+      - ~/nginx-proxy/certs:/etc/nginx/certs
+```
+
+For valid certificate, you must generate a certificate for each web separately.
 
 ## Docker Machine
 
