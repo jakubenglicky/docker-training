@@ -1,8 +1,6 @@
 services:
   apache:
-    image: php:8.1-apache
-    volumes:
-      - ./app:/var/www/html
+    build: .
     ports:
       - 80:80
       
