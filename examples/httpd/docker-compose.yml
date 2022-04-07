@@ -2,7 +2,7 @@ services:
   httpd:
     image: httpd:latest
     environment:
-      VIRTUAL_HOST: httpd.local
+      VIRTUAL_HOST: pokus.test
 
 networks:
   default:

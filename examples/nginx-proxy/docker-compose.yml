@@ -3,9 +3,12 @@ services:
     image: jwilder/nginx-proxy:latest
     volumes:
      - /var/run/docker.sock:/tmp/docker.sock:ro
+     - ./cert:/etc/nginx/certs
     ports:
      - 80:80
+     - 443:443
 
 networks:
   default:
       name: nginx-proxy
+      
