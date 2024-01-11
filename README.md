@@ -36,6 +36,7 @@ https://docs.docker.com/compose/install/
 - `docker rm <container>` - remove container
 - `docker exec -it <container> <command>` - connect to running container and run command
 - `docker logs -f <container>` - show logs from container
+- `docker system df` - show size of images, containers and volumes
 - `docker system prune (--all, --volumes)` - cleanup containers, images
 
 ### Docker Compose
