@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OmanUIbvX3YvbaJGed17qciIxqzOgco+hNLTZzQ/EKrNb8QwJ5zH5le0RnlZFajuzA/3H7JQQZCBMXUxSMOWsA==",
+  "dgSpecHash": "t0sIyWnoN7KuDROV6AWQUxEARff1SavGK78PpW6xKY/K6RP+rXSqwowTckZ1bQHacqTNzF9PPqilokty+v2rCA==",
   "success": true,
-  "projectFilePath": "/Users/jakubenglicky/Projects/docker-training/examples/dotnet/App/DotNet.Docker.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/DotNet.Docker.csproj",
+  "expectedPackageFiles": [
+    "/Users/jakubenglicky/.nuget/packages/microsoft.netcore.app.ref/6.0.11/microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "/Users/jakubenglicky/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.11/microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "/Users/jakubenglicky/.nuget/packages/microsoft.netcore.app.host.osx-arm64/6.0.11/microsoft.netcore.app.host.osx-arm64.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

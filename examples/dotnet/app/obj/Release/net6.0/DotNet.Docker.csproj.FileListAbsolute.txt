@@ -1,0 +1,15 @@
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/bin/Release/net6.0/DotNet.Docker
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/bin/Release/net6.0/DotNet.Docker.deps.json
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/bin/Release/net6.0/DotNet.Docker.runtimeconfig.json
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/bin/Release/net6.0/DotNet.Docker.dll
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/bin/Release/net6.0/DotNet.Docker.pdb
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/DotNet.Docker.csproj.AssemblyReference.cache
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/DotNet.Docker.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/DotNet.Docker.AssemblyInfoInputs.cache
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/DotNet.Docker.AssemblyInfo.cs
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/DotNet.Docker.csproj.CoreCompileInputs.cache
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/DotNet.Docker.dll
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/refint/DotNet.Docker.dll
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/DotNet.Docker.pdb
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/DotNet.Docker.genruntimeconfig.cache
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/obj/Release/net6.0/ref/DotNet.Docker.dll

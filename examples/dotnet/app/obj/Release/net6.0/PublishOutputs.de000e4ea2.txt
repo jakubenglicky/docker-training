@@ -1,0 +1,5 @@
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/out/DotNet.Docker
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/out/DotNet.Docker.dll
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/out/DotNet.Docker.deps.json
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/out/DotNet.Docker.runtimeconfig.json
+/Users/jakubenglicky/Projects/docker-training/examples/dotnet/app/out/DotNet.Docker.pdb

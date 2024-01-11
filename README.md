@@ -4,6 +4,10 @@
 ```
 https://docs.docker.com/get-docker/
 ```
+or
+```
+https://orbstack.dev/download
+```
 
 ### Docker Compose
 
@@ -28,6 +32,7 @@ https://docs.docker.com/compose/install/
 - `docker run <image>` - execute image as container
 - `docker ps` - list of containers
 - `docker kill <container-hash/name>`
+- `docker kill $(docker ps -q)` - kill all running containers
 - `docker rm <container>` - remove container
 - `docker exec -it <container> <command>` - connect to running container and run command
 - `docker logs -f <container>` - show logs from container
@@ -46,7 +51,7 @@ https://docs.docker.com/compose/install/
 #### Mkcert
 This tool create valid certificate for your localhost
 
-##### How to install Mkcert 
+##### How to install Mkcert
 [https://github.com/FiloSottile/mkcert#installation](https://github.com/FiloSottile/mkcert#installation)
 
 ##### After instalation
